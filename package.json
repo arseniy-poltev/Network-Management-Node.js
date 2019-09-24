@@ -1,0 +1,26 @@
+{
+  "name": "wcm-whub-client",
+  "private": true,
+  "version": "0.0.2",
+  "description": "Wanos Central Manager WHub Client",
+  "main": "./index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "start": "nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wanos",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "google-protobuf": "^3.7.0-rc.3",
+    "grpc": "^1.18.0",
+    "ipaddr.js": "^1.9.0",
+    "systeminformation": "^4.0.11",
+    "validator": "^11.1.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "nodemon": "^1.18.10"
+  }
+}

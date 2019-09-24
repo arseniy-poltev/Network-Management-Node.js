@@ -1,0 +1,9 @@
+{
+  "indent_size": 2,
+  "indent_char": " ",
+  "css": {
+    "indent_size": 2
+  },
+  "brace_style": "collapse,preserve-inline",
+  "keep_array_indentation": true
+}
